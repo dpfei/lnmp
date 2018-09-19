@@ -1,6 +1,7 @@
 # 设置centos7静态ip
 
 ## 设置网络设置
+
 * cd /etc/sysconfig/network-scripts/
 * 编辑该目录下第一个文件，文件名类似于为**ifcfg-enp0s3**，视自己系统中的文件为准
 * 系统刚安装完成的时候并没有安装vim
@@ -23,9 +24,15 @@
 * 通过**ip addr**命令可以看到配置后的ip地址
 
 ## 关闭防火墙&&禁止防火墙开启启动
+
 * 关机防火墙，**systemctl stop firewalld.service**
 * 禁止防火墙开机启动 **systemctl disable firewalld.service**
+* 永久关闭SELinux 
+  * **vim /etc/selinux/config**
+  * 将SELINUX=enforcing改为SELINUX=disabled
+  * 设置后重启系统生效
 
-================================================================
+===========================================================
+
 * 至此，设置ip地址，关闭防火墙，设置防火墙开机不启动完成
 * 在虚拟机启动完成之后，可以通过xshell等工具链接centos7

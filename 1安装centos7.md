@@ -1,6 +1,7 @@
 # 在virtualbox中安装centos7
 
 ## 在virtualbox中添加centos7虚拟机
+
 * 点击 virtualbox菜单栏中的 **新建** 按钮
 * 在弹框中的**名称**中输入要给安装的系统的名称，我在这里输入centos，virtualbox自动识别出类型和版本（Linux|Red Hat 64-bit）
 * 点击下一步，输入内存大小，我这里选择1024M（1G）
@@ -12,6 +13,7 @@
 * 点击创建按钮，完成centos7虚拟机添加
 
 ## 在virtualbox中设置centos7
+
 * 点击设置
 * 选择存储，点击没有盘片，选择属性中光盘图标，选择下载好的centos7的iso文件
 * 选择网络，选择连接方式为桥接网卡
@@ -19,6 +21,7 @@
 * 点击ok，完成设置
 
 ## 安装centos7
+
 * 选择刚才添加的centos7虚拟机，点击**启动**
 * 第一次启动centos7将进行系统安装
 * 选择 Install CentOs 7 开始系统安装

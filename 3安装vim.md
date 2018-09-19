@@ -1,1 +1,3 @@
-yum -y install vim 
+# 安装vim
+
+* yum -y install vim 
