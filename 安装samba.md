@@ -7,6 +7,8 @@
 ## 验证是否安装成功
 * rpm -qi samba
 * 如果返回Samba信息则证明安装成功
+## 设置Samba开机启动
+* systemctl enable smb.service
 
 ## 配置Samba服务
 * 进入Samba配置目录
