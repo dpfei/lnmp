@@ -33,6 +33,7 @@
   * 修改69行处的内容为
     * fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
   * 重启php-fpm服务
+  * 安装完成
 
 ## 参考文献
 
