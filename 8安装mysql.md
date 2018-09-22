@@ -8,7 +8,7 @@
     * vim /etc/yum.repos.d/mysql-community.repo
     * 通过设置 enabled 来决定安装哪个版本，1为安装；0为不安装
 * 用yum安装
-  * yum install mysql-community-server
+  * yum -y install mysql-community-server
 * 启动mysql
   * systemctl start mysqld
 * 修改mysql密码
