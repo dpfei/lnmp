@@ -18,7 +18,7 @@
 
 * 切换到上一级目录，**cd ../**，目录位置为：**/etc/sysconfig/**
 * 用vi编辑network文件，**vi network**
-* 在network文件中增加DNS配置，如：DNS1=8.8.8.8，可以添加任意多个DNS
+* 在network文件中增加DNS配置，如：DNS1=8.8.8.8，可以添加任意多个DNS，DNS保持与物理主机一致
 * 保存退出文件
 * 重启网络服务，**systemctl restart network**
 * 通过**ip addr**命令可以看到配置后的ip地址
