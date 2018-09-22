@@ -5,7 +5,7 @@
   * rpm -Uvh mysql57-community-release-el7-11.noarch.rpm
 * 选择安装版本
   * 修改mysql yum源配置文件
-    * /etc/yum.repos.d/mysql-community.repo
+    * vim /etc/yum.repos.d/mysql-community.repo
     * 通过设置 enabled 来决定安装哪个版本，1为安装；0为不安装
 * 用yum安装
   * yum install mysql-community-server
